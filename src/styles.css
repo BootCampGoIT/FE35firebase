@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.messageForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: teal;
+  width: 300px;
+  height: 250px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.messageFormTitle,
+.messageFormMessage,
+.messageFormButton {
+  width: 270px;
+  display: block;
+}
+
+.postsList {
+  list-style: none;
+}
+
+.listItem {
+  padding: 10px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+
